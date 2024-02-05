@@ -1,0 +1,25 @@
+.navbar {
+    background: linear-gradient(100deg, rgba(0, 0, 0, 1) 0%, rgb(110, 0, 0) 100%);
+}
+
+#navbarNav ul li a {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    &:hover {
+        background-color: #23232382;
+    }
+}
+
+.navbar-toggler {
+    border: none !important;
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+svg {
+    filter: invert(1);
+}

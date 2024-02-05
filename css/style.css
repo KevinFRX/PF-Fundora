@@ -7,9 +7,46 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background-color: #AD3535;
+  background: linear-gradient(90deg, #fefdd0 0%, #ce90dc 30%, #6a6e9e 60%, #403a7e 100%);
   min-height: 100vh; }
 
 .icon {
   height: 30px;
   width: 30px; }
+
+.navbar {
+  background: linear-gradient(100deg, black 0%, #6e0000 100%); }
+
+#navbarNav ul li a {
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s; }
+  #navbarNav ul li a:hover {
+    background-color: #23232382; }
+
+.navbar-toggler {
+  border: none !important; }
+  .navbar-toggler:focus {
+    box-shadow: none !important; }
+
+svg {
+  filter: invert(1); }
+
+footer {
+  background: linear-gradient(100deg, black 0%, #6e0000 100%); }
+
+.explore-button {
+  border-radius: 50px;
+  background-color: rgba(44, 44, 44, 0.5);
+  padding: 20px;
+  transition: background-color 0.3s; }
+  .explore-button a {
+    font-size: 30px;
+    text-decoration: none;
+    color: white; }
+    .explore-button a:hover {
+      color: black; }
+  .explore-button:hover {
+    background-color: rgba(255, 255, 255, 0.497); }
